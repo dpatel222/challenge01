@@ -23,23 +23,5 @@ sagan = [
 #puts "#{time[:that]} #{example[2]} #{example[1]} #{example[0]}#{time[:period]}"
 
 
-puts "#{carl[:words][2]} #{sagan[0][:are]} #{sagan[0]["A"]} #{sagan[1]["waaaaaay"]} #{carl[:words][1]} #{sagan[1][:th3]} #{carl[:toast]} #{sagan[3][2][0]} #{carl[:words][0]} #{sagan[2]}"
-
-ghosts =[{:name => "Inky", :age => 4, :loves => "reindeers", :net_worth => 25},
-         {:name => "Pnky", :age => 5, :loves => "garden tools", :net_worth => 14},
-         {:name => "Blinky", :age => 7, :loves => "ninjas", :net_worth => 13.03},
-         {:name => "Clyde",  :age => 6, :loves => "yarn", :net_worth => 0},
-         
-
-        ]
-
-
-
-
-ghosts.each do |ghost|
-  ghost_info  = "#{ghost[:name]} is #{ghost[:age]} years old, "
-  ghost_info += "loves #{ghost[:loves]} and "
-  ghost_info += "has #{ghost[:net_worth]} dollars in the bank."
-  puts ghost_info
-end
+puts "#{carl[:words][2]} #{sagan[0][:are]} #{sagan[0]["A"]} #{sagan[1]["waaaaaay"]} #{carl[:words][1]} #{sagan[1][:th3]} #{carl[:toast]} #{sagan[3][2][0]} #{carl[:words][0]} #{sagan[2]} #{carl[:punctuation][1]}".capitalize
 
